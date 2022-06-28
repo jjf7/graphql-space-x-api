@@ -18,6 +18,7 @@ const App = () => {
       <h3>By JFdeSousa</h3>
       <Nav page={page} setPage={setPage} />
       <ListLaunches list={data.launchesPast} />
+      <Nav page={page} setPage={setPage} />
     </div>
   );
 };
