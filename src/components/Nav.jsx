@@ -3,7 +3,13 @@ const PAGINATION = 10;
 
 const Nav = ({ page, setPage }) => {
   return (
-    <div style={{ display: "flex", justifyContent: "space-between" }}>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+      }}
+    >
       <p>Page: {page === 0 ? 1 : page / PAGINATION + 1} </p>
       <a
         style={{ cursor: "pointer", color: "blue" }}
